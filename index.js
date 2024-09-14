@@ -9,7 +9,7 @@ const corsOptions = {
     method: "GET, POST, PUT, DELETE, PATCH",
     credentials: true,
     optionSuccessStatus: 200,
-    allowHeaders: "X-Requested-With, content-type, x-token, Access-Control-Allow-Credentials, Access-Control-Allow-Origin"
+    allowHeaders: "X-Requested-With, content-type, x-token, Access-Control-Allow-Credentials"
 }
 
 
