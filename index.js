@@ -5,7 +5,7 @@ const Dotenv = require("dotenv")
 const RouterUrl = require('./router');
 
 const corsOptions = {
-    origin: "http://localhost:3000",
+    origin: "https://proj2-front.onrender.com",
     method: "GET, POST, PUT, DELETE, PATCH",
     credentials: true,
     optionSuccessStatus: 200,
