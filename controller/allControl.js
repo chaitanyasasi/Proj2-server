@@ -61,7 +61,7 @@ exports.getFilterAll=(req, res) => {
 
     var filterObj = {};
 
-    style && (filterObj["category"] = style);
+    style && (filterObj["category"] = {$in:style});
     sex && (filterObj["gender"] = sex);
     lcost && hcost && (filterObj["cost"] = { $gte: lcost, $lte: hcost });
     
